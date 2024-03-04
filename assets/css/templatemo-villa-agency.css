@@ -1393,8 +1393,6 @@ Page Header Style
 }
 
 .page-heading span {
-  background-color: #fff;
-  color: #1e1e1e;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1403,14 +1401,24 @@ Page Header Style
   margin-bottom: 30px;
 }
 
-.page-heading span a {
-  color: #1e1e1e;
+.page-heading h2, h1 {
+  color: #fff;
+  padding-right: 750px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.page-heading h1{
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .page-heading h3 {
-  font-size: 48px;
-  font-weight: 900;
-  text-transform: uppercase;
+  padding-right: 600px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
   color: #fff;
 }
 
