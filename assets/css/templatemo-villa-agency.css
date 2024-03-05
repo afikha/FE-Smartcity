@@ -1499,6 +1499,8 @@ Single Page Style
 
 .single-property .main-image img {
   float: none;
+  max-width: 100%;
+  height: auto; 
 }
 
 .single-property .main-content h4 {
@@ -1518,6 +1520,14 @@ Single Page Style
   padding: 5px 12px;
   display: inline-block;
   margin-top: 40px;
+}
+
+.single-property .main-content h6 {
+  font-size: small;
+  font-weight: 500;
+  padding: 48px 30px;
+  float: right;
+  /* text-align: right; */
 }
 
 .single-property .accordion {
