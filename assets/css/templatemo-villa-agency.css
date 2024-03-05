@@ -1182,6 +1182,17 @@ Properties Style
   display: inline-block;
   margin-top: 25px;
 }
+.properties .item span.category-year {
+  margin-top: 2px;
+  background-color: #fbd9cf;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #1e1e1e;
+  /* padding: 5px 12px; */
+  display: inline-block;
+  margin-top: 25px;
+}
 
 .properties .item h4 {
   font-size: 19px;
@@ -1210,14 +1221,14 @@ Properties Style
   padding-bottom: 30px;
 }
 
-.properties .item h6 {
+/* .properties .item h6 {
   font-size: 20px;
   color: #f35525;
   margin-top: 6px;
   display: inline-block;
   float: right;
   margin-top: 30px;
-}
+} */
 
 .properties .item .main-button {
   text-align: center;
@@ -1393,8 +1404,6 @@ Page Header Style
 }
 
 .page-heading span {
-  background-color: #fff;
-  color: #1e1e1e;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1403,14 +1412,24 @@ Page Header Style
   margin-bottom: 30px;
 }
 
-.page-heading span a {
-  color: #1e1e1e;
+.page-heading h2, h1 {
+  color: #fff;
+  padding-right: 750px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.page-heading h1{
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .page-heading h3 {
-  font-size: 48px;
-  font-weight: 900;
-  text-transform: uppercase;
+  padding-right: 600px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
   color: #fff;
 }
 
@@ -1424,12 +1443,12 @@ Properties Style
 .properties ul.properties-filter {
   list-style: none;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .properties ul.properties-filter li {
   display: inline-block;
-  margin: 5px 8px;
+  margin: 5px 7px;
 }
 
 .properties ul.properties-filter li a {
